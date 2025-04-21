@@ -1,0 +1,50 @@
+.home {
+	background: linear-gradient(
+		to bottom,
+		#22262a 0%,
+		#2a2a2a 0%,
+		#353535 3%,
+		#3b3b3b 7%,
+		#3c3c3c 100%
+	);
+
+	overflow: hidden;
+
+	height: calc(100vh - 30px);
+	width: 100vw;
+
+	.money {
+		font-size: 28px;
+		font-weight: 800;
+		white-space: nowrap;
+	}
+
+	.header {
+		margin-top: 2px;
+		font-size: 17px;
+	}
+
+	.label {
+		font-size: 12px;
+	}
+
+	> div {
+		text-align: center;
+	}
+
+	.circle {
+		&_container {
+			justify-content: center;
+			display: flex;
+			margin: 2px 0;
+		}
+
+		background-image: url(../assets/Big_circle.png);
+		width: 113px;
+		height: 113px;
+		background-repeat: no-repeat;
+		display: flex;
+		flex-direction: column;
+		padding: 25px 0;
+	}
+}
